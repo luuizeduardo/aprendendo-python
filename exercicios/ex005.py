@@ -1,0 +1,8 @@
+num1 = int(input('Digite um número: '))
+num2 = int(input('Digite outro número: '))
+print('A soma vale {}'.format(num1 + num2))
+print('A subtração vale {}'.format(num1 - num2))
+print('A multiplicação vale {}'.format(num1 * num2))
+print('A divisão vale {:.3}'.format(num1 / num2))
+print('A divisão inteira vale {}'.format(num1 // num2))
+print('A potência vale {}'.format(num1 ** num2))
