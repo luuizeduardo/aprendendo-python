@@ -1,0 +1,6 @@
+nome = input('Qual seu nome? ')
+print('Maiúsculo:', nome.upper())
+print('Minúsculo:', nome.lower())
+print('Quantidade de caracteres (sem espaços):', len(nome.replace(' ', '')))
+primeiroNome = nome.split()
+print('Quantidade de caracteres do primeiro nome:', len(primeiroNome[0]))
